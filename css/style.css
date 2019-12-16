@@ -7,6 +7,19 @@
 @import url("articles.css");
 @import url("footer.css");
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, Montserrat, sans-serif;
+}
+
 li {
     display: inline-block;
+}
+
+a, a:hover {
+    color: #000;
+    text-decoration: none;
 }

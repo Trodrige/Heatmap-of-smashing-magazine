@@ -1,13 +1,48 @@
 .nav-container-flex {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
 }
 
 header nav li {
-    border: 1px solid black;
+    border: 1px solid #fff;
     width: 100px;
     height: 100px;
-    
+    line-height: 100px;
+    height: 100px;
+}
+
+.menu-items {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+.menu-items li {
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    width: 20%;
+}
+
+.logo, .search-button {
+    border: 1px solid #fff;
+    background-color: grey;
+    width: 200px;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+}
+
+.bottom-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.article {
+    background-color: grey;
+    border: 1px solid #fff;
 }
