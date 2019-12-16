@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.main-article, .smashing-members {
+    height: 600px;
+    background-color: grey;
+    border: 1px solid #fff;
+    border-bottom: 0px;
+    width: 26%;
+}
+
+.smashing-members {
+    flex-basis: 48%;
+}
+
+.role-article {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: grey;
+    height: 300px;
+    padding: 30px;
+}
+
+figure, .article-date, .article-body {
+    background-color: #fff;
+}
+
+
+
+
+
