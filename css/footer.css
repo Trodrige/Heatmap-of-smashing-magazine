@@ -20,6 +20,7 @@ footer {
   flex-flow: row wrap;
   justify-content: space-around;
   margin-bottom: 60px;
+  padding: 0 20%;
 }
 
 .footer-list li {
