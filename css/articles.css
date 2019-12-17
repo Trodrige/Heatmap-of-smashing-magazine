@@ -1,0 +1,71 @@
+.bottom-articles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    flex-grow: 1;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border: 1px solid #fff;
+    padding: 30px;
+}
+
+.list p {
+    margin-bottom: 20px;
+}
+
+.list ul li{
+    display: list-item;
+    line-height: 2;
+}
+
+.list h2 {
+    font-size: larger;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+
+.newsletter {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    width: 1000px;
+    height: 400px;
+    background-color: grey;
+    border: 0;
+    border-radius: 5px;
+    margin: 0px 50px 0px 50px;
+    padding: 50px;
+}
+
+.newsletter h2, .list p{
+    font-size: larger;
+    font-weight: 900;
+    color: #fff;
+}
+
+.round-div {
+    width: 15%;
+    height: 85%;
+    border-radius: 50%;
+    margin: 10px 0px 10px 0px;
+    background-color: dimgray;
+}
+
+.subscribe-button {
+    width: 15%;
+    height: 15%;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    background-color: darkgrey;
+}
