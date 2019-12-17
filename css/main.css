@@ -12,8 +12,20 @@ main {
   width: 26%;
 }
 
+.smashing-title h2 {
+  font-size: 30px;
+}
+
+.main-article figure h2 {
+  font-size: 25px;
+}
+
 .smashing-members {
   flex-basis: 48%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .role-article {
@@ -29,5 +41,21 @@ main {
 figure,
 .article-date,
 .article-body {
-  background-color: #fff;
+  background-color: grey;
+}
+
+.article-date {
+  font-size: 10px;
+}
+
+.smashing-title {
+  margin-bottom: 100px;
+}
+
+.smashing-members button {
+  width: 25%;
+  height: 10%;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  background-color: darkgrey;
 }

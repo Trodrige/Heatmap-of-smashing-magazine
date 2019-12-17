@@ -24,6 +24,7 @@
   border: 1px solid black;
   transform: rotate(-20deg);
   margin-right: 20px;
+  background-color: black;
 }
 
 .description {
@@ -38,6 +39,7 @@
   height: 150px;
   transform: rotate(-20deg);
   margin-right: 30px;
+  background-color: black;
 }
 
 .week-description {
