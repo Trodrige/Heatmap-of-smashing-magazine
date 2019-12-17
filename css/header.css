@@ -1,74 +1,77 @@
 .nav-container-flex {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
 header nav li {
-    border: 1px solid #fff;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    height: 100px;
+  border: 1px solid #fff;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
 }
 
 .menu-items {
-    display: flex;
-    flex-flow: row nowrap;
-    width: 90%;
-    justify-content: space-between;
-    background-color: grey;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 90%;
+  justify-content: space-between;
+  background-color: grey;
 }
 
 .menu-items li {
-    text-align: center;
-    line-height: 100px;
-    height: 100px;
-    width: 20%;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  width: 20%;
 }
 
-.logo, .search-button {
-    border: 1px solid #fff;
-    background-color: grey;
-    width: 200px;
-    text-align: center;
-    line-height: 100px;
-    height: 100px;
+.logo,
+.search-button {
+  border: 1px solid #fff;
+  background-color: grey;
+  width: 200px;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
 }
 
 .bottom-header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
 .article {
-    background-color: grey;
-    border: 1px solid #fff;
-    width: 33.3%;
-    height: 800px;
+  background-color: grey;
+  border: 1px solid #fff;
+  width: 33.3%;
+  height: 800px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
 
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
 header {
-    position: relative;
+  position: relative;
 }
+
 .miss-articles-title {
-    position: absolute;
-    top: 160px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 10%;
+  position: absolute;
+  top: 160px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 10%;
 }
+
 .seriously {
-    position: absolute;
-    right: 50px;
-    top: 160px;
+  position: absolute;
+  right: 50px;
+  top: 160px;
 }
+
 .hight-ligth {
-    background-color: white;
+  background-color: white;
 }
