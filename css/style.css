@@ -30,3 +30,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   color: white;
 }
+
+.hide_me {
+  display: none;
+}

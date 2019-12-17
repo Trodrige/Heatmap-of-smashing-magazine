@@ -1,7 +1,7 @@
 # Heatmap-of-smashing-magazine
 This project is a heatmap for the Smashing Magazine. The aim of this project is to learn Design and UX.
 
-![screenshot](img/apple-page.png)
+![screenshot](heatmap-page.png)
 
 ## Project learning objectives
 
@@ -34,15 +34,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## 👤 Authors
 
-### Author 1
+👤 **Tigpezeghe Rodrige K.**
 - Github: [@Trodrige](https://github.com/Trodrige)
 - Twitter: [@TRodrige](https://twitter.com/TRodrige)
 - Linkedin: [Linkedin](https://www.linkedin.com/in/tigpezeghe-rodrige-k-52472310b/)
 
-## Author 2
-- Github: [@Trodrige](https://github.com/Trodrige)
-- Twitter: [@TRodrige](https://twitter.com/TRodrige)
-- Linkedin: [Linkedin](https://www.linkedin.com/in/tigpezeghe-rodrige-k-52472310b/)
+
+👤 **Ivan Ulises Guzman Sanchez**
+
+- Github: [@fivan18](https://github.com/fivan18)
+- Twitter: [@fivanunam](https://twitter.com/fivanunam)
+- Linkedin: [fivan](www.linkedin.com/in/fivan)
 
 ## 🤝 Contributing
 
