@@ -1,0 +1,62 @@
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.main-article,
+.smashing-members {
+  height: 600px;
+  background-color: grey;
+  border: 1px solid #fff;
+  border-bottom: 0;
+  width: 33.33%;
+}
+
+.smashing-title h2 {
+  font-size: 30px;
+}
+
+.main-article figure h2 {
+  font-size: 25px;
+}
+
+.smashing-members {
+  flex-basis: 48%;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.role-article {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: grey;
+  height: 300px;
+  padding: 30px;
+}
+
+figure,
+.article-date,
+.article-body {
+  background-color: grey;
+}
+
+.article-date {
+  font-size: 10px;
+}
+
+.smashing-title {
+  margin-bottom: 100px;
+}
+
+.smashing-members button {
+  width: 25%;
+  height: 10%;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  background-color: darkgrey;
+}

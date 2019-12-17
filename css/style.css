@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, Montserrat, sans-serif;
+  font-size: 20px;
+}
+
+li {
+  display: inline-block;
+}
+
+a,
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.hide_me {
+  display: none;
+}
